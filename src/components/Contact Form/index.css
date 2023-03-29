@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+label{
+    font-size: 1rem;
+}
+
+input.form-control, input.form-control:focus{
+    background: #f0f0ff;
+}
+
+.error{
+    position: absolute;
+    color: red;
+    font-size: .6rem;
+}
+
+@media (max-width: 480px) {
+    *{
+        margin: auto;
+    }
+    .bar{
+        display: flex;
+        justify-content: space-between;
+    }
+}
