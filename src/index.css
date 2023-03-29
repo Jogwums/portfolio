@@ -131,11 +131,11 @@ code {
   height: 720px;
 }
 .portfolio-card-text-da, .portfolio-card-text-ds{
-  text-align: center;
-  color: white;
-  background-color: #5444ff50;
-  padding: 2rem 1.5rem;
-  border-radius: 10px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
 }
 
 /* Page titles */

@@ -19,7 +19,7 @@ const Portfolio = () => {
               <Col sm={12} md={6} className='m-0 p-0'>
                 <div className="">
                       <div className='portfolio-card-text-da'>
-                        <h2>Data Portfolio</h2>
+                        {/* <h2>Data Portfolio</h2> */}
                         <ImageCard 
                         style={{width:"50%"}}
                         image={"https://picsum.photos/200.webp?grayscale?random=2"} text={"Data Portfolio"} 
@@ -33,7 +33,7 @@ const Portfolio = () => {
               <Col sm={12} md={6} className='m-0 p-0'>
                 <div className="">
                       <div className='portfolio-card-text-ds '>
-                        <h2>Design Portfolio</h2>
+                        {/* <h2>Design Portfolio</h2> */}
                         <div className=''>
                           <ImageCard 
                           image={"https://picsum.photos/200.webp?grayscale?random=3"} text={"Design Portfolio"} 

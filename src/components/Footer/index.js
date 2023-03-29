@@ -9,7 +9,7 @@ import {FaLinkedin, FaGithub, FaKaggle } from 'react-icons/fa'
 const FooterDetails = () => {
     return (
     <>
-      <Navbar className="footer py-5 bg-black text-white flex">
+      <Navbar className="footer py-1 bg-black text-white flex">
               <div className='container'>
                 {/* <!-- social icon --> */}
               <div className="socials float-left">
