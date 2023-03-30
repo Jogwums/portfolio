@@ -23,6 +23,7 @@ const Portfolio = () => {
                         <ImageCard 
                         style={{width:"50%"}}
                         image={"https://picsum.photos/200.webp?grayscale?random=2"} text={"Data Portfolio"} 
+                        text2={"View projects created using tools like power BI, python and Tableau"}
                         link={"/data"}
                          />
                         <Button href='/data'>View</Button>
@@ -37,6 +38,7 @@ const Portfolio = () => {
                         <div className=''>
                           <ImageCard 
                           image={"https://picsum.photos/200.webp?grayscale?random=3"} text={"Design Portfolio"} 
+                          text2={"Reactjs projects using libraries and APIs"}
                           link={"/design"}
                            />
                       </div>
