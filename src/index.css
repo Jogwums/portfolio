@@ -170,4 +170,7 @@ code {
     margin: 0 auto;
     padding-top: 40%;
   }
+  .blockquote{
+    position: unset;
+  }
 }
