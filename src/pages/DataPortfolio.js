@@ -45,7 +45,7 @@ const DataPortfolio = ({type, text}) => {
                                 link={"/https://github.com/Jogwums"}/>
                         <Card image={'https://picsum.photos/200.webp?grayscale?random=5'} 
                                 text={"Looker Studio"} 
-                                link={"/python"}/>
+                                link={"/looker"}/>
                       </div>
                     </Col>
                 </Row>

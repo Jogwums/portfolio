@@ -10,6 +10,7 @@ import DesignPage from './pages/DesignPortfolio';
 import ErrorPage from './pages/ErrorPage';
 import Da from './pages/Da';
 import Py from './pages/Py';
+import Looker from './pages/looker';
 import Certs from './pages/certifications';
 
 // import FormComponent from './components/Signup Form'
@@ -17,6 +18,7 @@ import Certs from './pages/certifications';
 // styles
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
 
 
 function App() {
@@ -40,6 +42,9 @@ function App() {
         </Route>
         <Route path="/python">
           <Py />
+        </Route>
+        <Route path="/looker">
+          <Looker />
         </Route>
         <Route path="/certs">
           <Certs />
