@@ -40,8 +40,15 @@ const Da = ({type, text}) => {
         text2={"Report shows Client records and Inventory"}
          link={"https://jogwums-streamlit-titanic-app-sc1rsj.streamlitapp.com/"}
          />
+         <Card
+        image={image1}
+        text={"Crude oil production and Export in Nigeria (2006 - 2021)"}
+        text2={"Report created with Looker Studio"}
+         link={"https://lookerstudio.google.com/embed/reporting/b324c994-b757-4dfe-a745-8734f54ec0fa/page/FWcrC"}
+         />
          
         </div>
+        
         </>
     )
 }
