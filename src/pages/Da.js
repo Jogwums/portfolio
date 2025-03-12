@@ -22,6 +22,7 @@ const Da = ({type, text}) => {
         <Card image={image1} 
                         text={"Report on World Covid-19 Outbreak"} 
                         text2={"You will be redirected to the report"}
+                        target="_blank"
                         link={"https://app.powerbi.com/view?r=eyJrIjoiMWNkYzJkOGYtNDlhZS00NTVjLWEyNTgtYzNiMmUyZDEzNGE5IiwidCI6ImUyOGUyY2RlLWYzN2YtNDVkYi1iYWNlLWE0YjFkZDI3NzYyMyJ9"} />
 
         <Card
@@ -32,15 +33,15 @@ const Da = ({type, text}) => {
         />
         <Card
             image={image2}
-            text={"Plane Crashes Worldwide"}
+            text={"Plane Crashes Worldwide: 5 Year Incident Report "}
             text2={"You will be redirected to the report"}
-            link={"https://app.powerbi.com/view?r=eyJrIjoiMjJmNTcxNmMtOGE1NS00NzhjLTg5MmMtZGEwYzE3NjIxNTA5IiwidCI6ImUyOGUyY2RlLWYzN2YtNDVkYi1iYWNlLWE0YjFkZDI3NzYyMyJ9"}
+            link={"https://app.powerbi.com/view?r=eyJrIjoiZmRlOTZkNTItN2MzNS00MWVlLWE0NzUtYWRmNjg5ZWQ3YjA3IiwidCI6ImUyOGUyY2RlLWYzN2YtNDVkYi1iYWNlLWE0YjFkZDI3NzYyMyJ9"}
         />
         <Card
         image={image4}
         text={"Car Sales Analysis"}
         text2={"Report shows Client records and Inventory"}
-         link={"https://app.powerbi.com/view?r=eyJrIjoiNzBjYTVlYzEtZDExMS00ZmRiLTg2MTQtMjY1ZGU1YWY4YTg5IiwidCI6ImUyOGUyY2RlLWYzN2YtNDVkYi1iYWNlLWE0YjFkZDI3NzYyMyJ9"}
+         link={"https://app.powerbi.com/view?r=eyJrIjoiZmRiMmYxNjQtMDA4Mi00OTA4LTkwNTYtODc1NTg1NWYzMjc1IiwidCI6ImUyOGUyY2RlLWYzN2YtNDVkYi1iYWNlLWE0YjFkZDI3NzYyMyJ9"}
          />
          </div>
          <div className="card-deck">

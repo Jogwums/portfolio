@@ -15,7 +15,7 @@ const ContactModal = ({text}) => {
     return (
         <>  
             <div>
-            <NavLink variant="dark" onClick={() => setLgShow(true)}>
+            <NavLink variant="light" onClick={() => setLgShow(true)}>
                 {text}
             </NavLink> 
             </div>

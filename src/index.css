@@ -1,14 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
 html{
   scroll-behavior: smooth;
-  font-family: 'DynaPuff', cursive !important;
+  /* font-family: 'DynaPuff', cursive !important; */
+  font-family: 'Poppins', sans-serif !important;
 }
 h1,h2,h3,h4,h5,h6{
-  font-family: 'DynaPuff', cursive !important;
+  /* font-family: 'DynaPuff', cursive !important; */
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 3rem;
+  font-weight: 700;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 body {
   margin: 0 auto !important;
-  font-family: 'DynaPuff', cursive !important;
+  font-family: 'Poppins', sans-serif !important;
+  /* font-family: 'DynaPuff', cursive !important; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background: linear-gradient(90deg,#000,#0f0f0f); */
@@ -41,6 +57,19 @@ html, body{
   margin-top: auto;
 
 }
+/* buttons on home page */
+.cta-button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
 
 .jumbotron {
   background-color: #000 !important;
@@ -65,7 +94,7 @@ code {
   
 }
 .hero{
-  font-family: 'DynaPuff', cursive !important;
+  /* font-family: 'DynaPuff', cursive !important; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.1),
    rgba(0, 0, 0, 0.2)),
    url('./assets/img/hero/jt2_norm.jpg');
@@ -117,7 +146,7 @@ code {
 
 /* portfolio page */
 .portfolio-home{
-  font-family: 'DynaPuff', cursive !important;
+  /* font-family: 'DynaPuff', cursive !important; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: white;
@@ -160,7 +189,7 @@ code {
 
 /* media queries  */
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 768px) {
   body{
     padding-bottom: 40px;
   }
@@ -189,7 +218,9 @@ code {
     padding-top: 40%;
   }
   .blockquote{
-    /* position: unset; */
+    position: unset;
     display: hidden;
+    /* position: absolute; */
+    top: unset;
   }
 }

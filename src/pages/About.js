@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-import author from  '../assets/img/hero/jt_no_bg_grey.png';
+import author from  '../assets/img/hero/jt.png';
 import signature from  '../assets/images/about/signature.png';
 
 // icons
