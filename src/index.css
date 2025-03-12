@@ -17,6 +17,13 @@ body {
   color: #000;
   overflow-x: hidden;
   word-spacing: .5rem;
+  display: flex;
+  flex-direction: column;
+}
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 /* Navbar  */
 .bar{
@@ -27,6 +34,12 @@ body {
 .footer{
   background: linear-gradient(90deg,#000,#0f0f0f) !important;
   color: #f3f3f3;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  height: max-content;
+  margin-top: auto;
+
 }
 
 .jumbotron {
@@ -34,7 +47,7 @@ body {
   margin: 0 auto;
 }
 .container{
-  margin: auto !important;
+  margin: 0 auto !important;
 }
 
 img.rounded-circle:hover {
@@ -109,7 +122,9 @@ code {
   grid-template-columns: 1fr 1fr;
   color: white;
   padding: 0 auto;
-  position: relative;
+  margin-bottom: 0;
+  overflow-y: hidden;
+  /* position: relative; */
 }
 
 .portfolio-card-da{
@@ -146,6 +161,9 @@ code {
 /* media queries  */
 
 @media screen and (max-width: 460px) {
+  body{
+    padding-bottom: 40px;
+  }
   .hero{
     background-size: cover;
     height: 720px;
@@ -171,6 +189,7 @@ code {
     padding-top: 40%;
   }
   .blockquote{
-    position: unset;
+    /* position: unset; */
+    display: hidden;
   }
 }
