@@ -222,5 +222,6 @@ code {
     display: hidden;
     /* position: absolute; */
     top: unset;
+    margin: 20px auto;
   }
 }

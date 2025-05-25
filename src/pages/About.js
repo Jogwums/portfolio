@@ -52,18 +52,19 @@ const About = () => {
         {/* blockquote */}
         
       <div>
-          <blockquote className='blockquote'>
-          <p>
+          <blockquote className='lead'>
+          {/* <p>
           A Jack of All Trades is a Master of None. 
           But Oftentimes better than a Master of One ....
-          </p>
+          </p> */}
           </blockquote>
         </div>
       </div>
     
       <div className="col-md-4 text-center drag-lg-top">
         <div className="shadow-down mb-4 ">
-          <img src={author} alt="author" className="img-fluid w-100 rounded-lg border-thick border-white" />
+          <img src={author} alt="author" 
+          className="img-fluid w-100 rounded-lg rounded-circle border-thick border-white" />
         </div>
         <img src={signature} alt="signature" className="img-fluid" />
         <h4>Jonathan Ogwumike</h4>
