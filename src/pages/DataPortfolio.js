@@ -42,7 +42,7 @@ const DataPortfolio = ({type, text}) => {
                                 link={"/python"}/>
                         <Card image={'https://picsum.photos/200.webp?grayscale?random=4'} 
                                 text={"Github"} 
-                                link={"/https://github.com/Jogwums"}/>
+                                link={"https://github.com/Jogwums"}/>
                         <Card image={'https://picsum.photos/200.webp?grayscale?random=5'} 
                                 text={"Looker Studio"} 
                                 link={"/looker"}/>

@@ -71,6 +71,8 @@ html, body{
   background-color: #0056b3;
 }
 
+/* portfolio page buttons fixed in App css*/
+
 .jumbotron {
   background-color: #000 !important;
   margin: 0 auto;
@@ -93,6 +95,7 @@ code {
   padding: 1rem;
   
 }
+/* background image on the home page */
 .hero{
   /* font-family: 'DynaPuff', cursive !important; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.1),

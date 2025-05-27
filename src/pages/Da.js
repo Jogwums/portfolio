@@ -18,7 +18,9 @@ const Da = ({type, text}) => {
         <>
         <Navigation />
         <TitleDetails title="Power BI Reports" text=""/>
-        <div className="card-deck">
+        <div className='container'>
+            <div className='row'>
+                <div className="col card-deck">
         <Card image={image1} 
                         text={"Report on World Covid-19 Outbreak"} 
                         text2={"You will be redirected to the report"}
@@ -37,14 +39,20 @@ const Da = ({type, text}) => {
             text2={"You will be redirected to the report"}
             link={"https://app.powerbi.com/view?r=eyJrIjoiZmRlOTZkNTItN2MzNS00MWVlLWE0NzUtYWRmNjg5ZWQ3YjA3IiwidCI6ImUyOGUyY2RlLWYzN2YtNDVkYi1iYWNlLWE0YjFkZDI3NzYyMyJ9"}
         />
-        <Card
+         </div>
+        </div>
+        </div>
+        
+
+         <div className='container'>
+            <div className='row'>
+                 <div className="col card-deck">
+                    <Card
         image={image4}
         text={"Car Sales Analysis"}
         text2={"Report shows Client records and Inventory"}
          link={"https://app.powerbi.com/view?r=eyJrIjoiZmRiMmYxNjQtMDA4Mi00OTA4LTkwNTYtODc1NTg1NWYzMjc1IiwidCI6ImUyOGUyY2RlLWYzN2YtNDVkYi1iYWNlLWE0YjFkZDI3NzYyMyJ9"}
          />
-         </div>
-         <div className="card-deck">
          <Card
         image={image6}
         text={"Nigerian Presidential Elections 2023 Analysis"}
@@ -58,6 +66,11 @@ const Da = ({type, text}) => {
          link={"https://app.powerbi.com/view?r=eyJrIjoiZDE0YzU5NmMtNDdlZC00NmYyLThkOWEtNTE1NGYyMDhmNDZjIiwidCI6ImUyOGUyY2RlLWYzN2YtNDVkYi1iYWNlLWE0YjFkZDI3NzYyMyJ9"}
          />
         </div>
+            </div>
+
+        </div>
+
+        
         </>
     )
 }

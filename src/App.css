@@ -2967,6 +2967,9 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #ee0979;
   border-color: #ee0979;
+
+  /* custom addition */
+  padding: 5px 45px;
 }
 .btn-primary:hover {
   color: #fff;
