@@ -10,15 +10,17 @@ const HeroDetails = () => {
     <>
       <h1>I am Jonathan Ogwumike</h1>
       <p>And I'm a Data Analyst</p>
-      <Button href='/portfolio' size='lg' variant='outline-light'>
+      <div className='hero-buttons'>
+        <Button href='/portfolio' size='lg' variant='outline-light'>
         Portfolio
       </Button>
       <span className='px-5'></span>
-      <Button href='/' size='sm' variant="outline-dark">
-        <Nav.Link rel="noreferrer" href="#"><ContactModal text={"Contact Me"}/>
+      <Button href='/' size='lg' variant="outline-dark">
+        <Nav.Link rel="noreferrer" href="#">
+          <ContactModal text={"Contact Me"}/>
         </Nav.Link>
-        
       </Button>
+      </div>
     </>
   )
 }
