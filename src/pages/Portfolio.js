@@ -10,7 +10,7 @@ import dash02 from "../assets/img/pbiprojects/design-01.png"
 
 const Portfolio = () => {
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', padding:'0' }}>
             <Navigation />
             <Container fluid className='m-0 p-0'>
                 <Row className='p-0 mb-5'>

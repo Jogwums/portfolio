@@ -16,7 +16,7 @@ const FooterDetails = () => {
                 </div>
                 {/* Footer text */}
                 <div className="footer-container px-5 bg-black">
-                    <p className="footer-text m-0 small">&copy; Jonathan {new Date().getFullYear()}</p>
+                    <p className="footer-text m-0 small">&copy;{new Date().getFullYear()}</p>
                 </div>
             </div>
         </Navbar>

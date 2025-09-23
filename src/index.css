@@ -114,25 +114,17 @@ code {
   padding: 4rem 2rem;
   gap: 2rem;
   width: 100%;
+  background: #000 url("./assets/img/hero/jt2.jpg") no-repeat center / cover;
+  color:white;
 }
 .hero-details{
   flex: 1;
   padding: 20px;
 }
-.hero-image {
-  flex: 1;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
+.hero-image{
+  display: none;
 }
-.hero-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-  mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
 
-  
-}
 .imgcrop{
   object-fit: cover;
   object-position: center;
@@ -180,15 +172,12 @@ code {
 
 /* portfolio page */
 .portfolio-home{
-  /* font-family: 'DynaPuff', cursive !important; */
   display: grid;
-  /* grid-template-columns: 1fr 1fr; */
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
   color: white;
   padding: 0 auto;
   margin-bottom: 0;
   overflow-y: hidden;
-  /* position: relative; */
 }
 
 .portfolio-card-da{
@@ -230,8 +219,8 @@ h1 { font-size: 2rem; }
 p { font-size: 1rem; }
 
 .bar{
-  display: block;
-  margin:0;
+  display: flex;
+  margin:auto 0;
   padding: 0;
 }
 .cta-button button {
@@ -242,9 +231,23 @@ p { font-size: 1rem; }
 }
 .hero-content{
   flex-direction: row;
+  background: unset;
+  color:unset;
 }
 .hero-details, .hero-image{
   width: 100%;
+}
+.hero-image {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent); 
 }
 
 }

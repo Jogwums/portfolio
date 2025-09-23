@@ -21,7 +21,7 @@ input.form-control, input.form-control:focus{
 
 @media (max-width: 480px) {
     *{
-        margin: auto;
+        margin: auto 0;
     }
     .bar{
         display: flex;
