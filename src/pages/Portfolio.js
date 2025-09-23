@@ -17,7 +17,7 @@ const Portfolio = () => {
                     <Col sm={12} md={6} className='m-0 p-0'>
                         <div className="portfolio-card-text-da">
                             <ImageCard
-                                style={{ width: "50%" }}
+                                style={{ width: "80%" }}
                                 image={dash01}
                                 text={"Data Portfolio"}
                                 text2={"View projects created using tools like power BI, python and Tableau"}

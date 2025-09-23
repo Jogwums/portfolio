@@ -7,7 +7,9 @@ const Card = ({image, text, link, text2}) => {
     return (
     <>
     <section className="mx-auto" id="scroll">
-            <div className="card rounded-lg" style={{width: "16.5rem", background:"transparent", border: "none"}}>
+            <div className="card rounded-lg" style={{width: "90%", background:"transparent", border: "none",
+                padding:"10px", margin:"5px", height:"75vh"
+            }}>
             <a href={link} target="_blank" rel="noreferrer">
             <img className="card-img-top rounded-lg" src={image} alt="..." />
             {/* <img className="card-img-top " src={image} alt="..." /> */}
