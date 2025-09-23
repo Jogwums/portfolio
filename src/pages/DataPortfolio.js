@@ -23,27 +23,31 @@ const DataPortfolio = ({type, text}) => {
                 <Row>
                     <Col lg={12}>
                       <div className="card-deck mt-5">
-                        <Card image={"https://picsum.photos/200.webp?grayscale?random=6"} text={"Tableau"} 
+                        <Card 
+                                widthvariant={"16.5rem"}
+                                image={"https://picsum.photos/200.webp?grayscale?random=6"} text={"Tableau"} 
                                 link={"https://public.tableau.com/app/profile/jonathan.ogwumike"} />
-                        <Card image={'https://picsum.photos/200.webp?grayscale?random=2'} 
+                        <Card widthvariant={"16.5rem"} image={'https://picsum.photos/200.webp?grayscale?random=2'} 
                                 text={"Kaggle"} 
                                 link={"https://www.kaggle.com/jogwums"}/>
-                        <Card image={'https://picsum.photos/200.webp?grayscale?random=1'} 
+                                
+                        <Card widthvariant={"16.5rem"} image={'https://picsum.photos/200.webp?grayscale?random=1'} 
                                 text={"PowerBI"} 
                                 link={"/pbi"}/>
+                                
                       </div>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
                       <div className="card-deck mt-5">
-                        <Card image={'https://picsum.photos/200.webp?grayscale?random=3'} 
+                        <Card widthvariant={"16.5rem"} image={'https://picsum.photos/200.webp?grayscale?random=3'} 
                                 text={"Python"} 
                                 link={"/python"}/>
-                        <Card image={'https://picsum.photos/200.webp?grayscale?random=4'} 
+                        <Card widthvariant={"16.5rem"} image={'https://picsum.photos/200.webp?grayscale?random=4'} 
                                 text={"Github"} 
                                 link={"https://github.com/Jogwums"}/>
-                        <Card image={'https://picsum.photos/200.webp?grayscale?random=5'} 
+                        <Card widthvariant={"16.5rem"} image={'https://picsum.photos/200.webp?grayscale?random=5'} 
                                 text={"Looker Studio"} 
                                 link={"/looker"}/>
                       </div>

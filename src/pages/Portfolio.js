@@ -17,6 +17,7 @@ const Portfolio = () => {
                     <Col sm={12} md={6} className='m-0 p-0'>
                         <div className="portfolio-card-text-da">
                             <ImageCard
+                                widthvariant={"80%"}
                                 style={{ width: "80%" }}
                                 image={dash01}
                                 text={"Data Portfolio"}
@@ -29,6 +30,7 @@ const Portfolio = () => {
                     <Col sm={12} md={6} className='m-0 p-0'>
                         <div className="portfolio-card-text-ds">
                             <ImageCard
+                                widthvariant={"80%"}
                                 image={dash02}
                                 text={"Design Portfolio"}
                                 text2={"Reactjs projects using libraries and APIs"}
